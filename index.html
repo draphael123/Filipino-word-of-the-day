@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipino Word of the Day</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🇵🇭 Filipino Word of the Day</h1>
+            <p class="subtitle">Learn a new Filipino word every day</p>
+        </header>
+        
+        <main>
+            <div class="word-card">
+                <div class="word-section">
+                    <h2 id="word" class="word">Loading...</h2>
+                    <p id="pronunciation" class="pronunciation"></p>
+                </div>
+                
+                <div class="meaning-section">
+                    <h3>Meaning</h3>
+                    <p id="meaning" class="meaning"></p>
+                </div>
+                
+                <div class="example-section">
+                    <h3>Example</h3>
+                    <p id="example" class="example"></p>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button id="newWordBtn" class="btn-primary">Get New Word</button>
+                <button id="speakBtn" class="btn-secondary">🔊 Listen</button>
+            </div>
+            
+            <div class="info">
+                <p>💡 Tip: Click "Listen" to hear the pronunciation</p>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Made with ❤️ for learning Filipino</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
